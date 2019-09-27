@@ -19,17 +19,19 @@ section:not(#hero) {
 
 h1 {
 
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 }
 
-h2, h3, h4, h5 {
+h2, h4, h5 {
 
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	
 }
+
+
 
 h1 {
 
@@ -38,6 +40,7 @@ h1 {
 	font-size: 5em;
 	letter-spacing: 4px;
 	padding-bottom: 50px;
+	
 
 
 }
@@ -60,6 +63,7 @@ h3 {
 	font-size: 3.5em;
 	text-align: center;
 	letter-spacing: 2px;
+	font-family: 'Poppins', sans-serif;
 	
 }
 
@@ -237,7 +241,7 @@ nav a:hover {
 	width: 100%;
 	position: fixed;
 	z-index: 50;
-	background-color: rgba(255,255,255,.4);
+	background-color: rgba(255,255,255,.8);
 
 }
 
@@ -301,32 +305,19 @@ a {
 	position: relative;
 }
 
- #mask {
-
- 	width: 0;
- 	height: 0;
- 	border-top: 230px solid transparent;
- 	border-bottom: 230px solid transparent;
- 	border-right: 2500px solid white;
- 	position: absolute;
- 	top: 1298px;
- 	z-index: 25;
- 	pointer-events: none;
-
- }
 
 
 #cabecera {
 
-	background: url("../img/background/cabecera.png") no-repeat center / cover;
-	height: 130vh;
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../img/background/cabecera.jpg") no-repeat center / cover;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	padding: 50px;
 	letter-spacing: 3px;
-	z-index: 1;
+	z-index: -1;
 	
 }
 
@@ -370,7 +361,7 @@ a {
 
  .box p {
 
- 	font-family: 'Julius Sans One', sans-serif;
+ 	font-family: 'Poppins', sans-serif;
  	text-transform: uppercase;
  	color: white;
  	font-size: 2em;
@@ -379,6 +370,7 @@ a {
  	text-align: center;
  
  }
+
 
 
 
@@ -525,7 +517,7 @@ a {
 
 	display: block;
     margin: auto;
-    padding: 12px;
+    padding: 5px;
     text-transform: uppercase;
     font-size: .8em;
     width: 220px;
@@ -1030,6 +1022,8 @@ h3 {
 	font-size: 2em;
 }
 
+
+
 .boton p {
 
 	font-size: .9em;
@@ -1062,22 +1056,6 @@ a {
 	font-size: 1.5em;
 
 }
-
-#mask {
-
-	width: 0;
- 	height: 0;
- 	border-top: 150px solid transparent;
- 	border-bottom: 150px solid transparent;
- 	border-right: 970px solid white;
- 	position: absolute;
- 	top: 781px;
- 	z-index: 25;
- 	pointer-events: none;
-
-}
-
-
 
 .box p {
 
@@ -1308,7 +1286,18 @@ h1 {
 h3 {
 
 	font-size: 1.7em;
-}  
+} 
+
+.contenido h3 {
+
+	text-align: center;
+	font-size: 2em;
+}
+
+.contenido img {
+
+	width: 90%;
+}
 
 .boton {
 
