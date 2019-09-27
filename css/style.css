@@ -487,15 +487,11 @@ a {
 
 /*------experiencia------*/
 
-.experiencia {
 
-	background-color: rgba(253,59,97,.7);
-	
-}
 
 .experiencia h3, .experiencia h2 {
 
-	color: rgba(255,255,255,.9);
+	color: rgba(0,0,0,.9);
 	letter-spacing: 3px;
 
 
@@ -659,7 +655,7 @@ textarea {
 	color: white;
 	text-align: center;
 	padding-top: 80px;
-	transform: translateY(3px;);
+	transform: translateY(3px);
 }
 
 #contacto h3 {
@@ -978,16 +974,6 @@ figcaption a:hover {
 	max-width: 2500px;
 	vertical-align: baseline;
 	
-
-}
-
-
-.tercio {
-
-	float: left;
-	display: inline;
-	text-align: center;
-	padding: 10px;
 
 }
 
